@@ -63,7 +63,7 @@ def runner
   welcome
   newt += initial_round
   until newt > 21
-  
+  newt = hit?(newt)
   
 end
     
