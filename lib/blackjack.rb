@@ -34,13 +34,15 @@ def initial_round
   
 end
 
+def invalid_command
+puts ""
 def hit?(x)
   prompt_user
   if get_user_input == "h"
 deal_card
 elsif get_user_input == "s"
 else
-  puts
+  puts 
 end
 
 #####################################################
