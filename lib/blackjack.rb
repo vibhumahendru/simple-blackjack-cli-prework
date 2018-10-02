@@ -50,8 +50,7 @@ x+= deal_card
 elsif input == "s"
 x
 else
-  prompt_user
-  
+  invalid_commad
   
 end
 end
