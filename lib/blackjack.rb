@@ -35,7 +35,7 @@ def initial_round
 end
 
 def hit?(x)
-  
+  puts ""
 end
 
 def invalid_command
