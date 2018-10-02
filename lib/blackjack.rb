@@ -59,6 +59,10 @@ end
 #####################################################
 
 def runner
-  # code runner here
+  newt = 0
+  welcome
+  initial_round
+  newt =+ hit?
+  
 end
     
