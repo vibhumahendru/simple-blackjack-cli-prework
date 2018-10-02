@@ -30,7 +30,7 @@ def initial_round
   
   sum = x + y
   sum
-  print "Your cards add up to #{sum}"
+  
 end
 
 def hit?
