@@ -62,7 +62,8 @@ def runner
   newt = 0
   welcome
   newt += initial_round
-  if
+  until newt > 21
+  
   
 end
     
