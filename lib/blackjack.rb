@@ -29,7 +29,7 @@ def initial_round
   y = deal_card
   
   sum = x + y
-  sum
+  print "Your cards add up to #{sum}"
 end
 
 def hit?
