@@ -36,19 +36,6 @@ end
 
 def hit?(x)
 
-  prompt_user
-  get_user_input
-   t = initial_round
-  if get_user_input == "h"
-   w = deal_card
- end
- x = t + w
- x
-  
-end
-
-def invalid_command
-  # code invalid_command here
 end
 
 #####################################################
