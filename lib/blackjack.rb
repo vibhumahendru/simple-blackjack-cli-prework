@@ -46,8 +46,10 @@ x+= deal_card
 end
 x
 if get_user_input != ("h" || "s")
-  invalid_command
+  
   prompt_user
+  invalid_command
+  
 end
 end
 
