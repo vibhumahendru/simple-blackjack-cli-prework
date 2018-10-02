@@ -37,11 +37,11 @@ end
 def hit?(x)
   prompt_user
   get_user_input
-  x = deal_card
-  y = deal_card
+  b = deal_card
+  n = deal_card
   
-  sum = x + y
-  sum
+  sum1 = b + n
+  sum1
   
 end
 
