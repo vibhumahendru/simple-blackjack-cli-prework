@@ -35,7 +35,7 @@ def initial_round
 end
 
 def hit?(x)
-  gets.chomp
+  
 end
 
 def invalid_command
