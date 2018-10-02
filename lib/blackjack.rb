@@ -34,7 +34,7 @@ def initial_round
   
 end
 
-def hit?
+def hit?()
 
 end
 
