@@ -36,7 +36,8 @@ end
 
 def hit?(x)
 prompt_user
-get_user_input
+get_user_input = x
+
 end
 
 #####################################################
