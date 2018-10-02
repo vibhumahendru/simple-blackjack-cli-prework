@@ -42,7 +42,7 @@ end
 def hit?(x)
   prompt_user
   if get_user_input == "h"
-deal_card
+x+= deal_card
 elsif get_user_input == "s"
 else
   invalid_command
