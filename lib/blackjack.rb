@@ -35,7 +35,8 @@ def initial_round
 end
 
 def hit?(x)
-  puts "Type 'h' to hit or 's' to stay"
+  prompt_user
+  get_user_input
 end
 
 def invalid_command
