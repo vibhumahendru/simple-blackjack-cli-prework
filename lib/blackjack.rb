@@ -35,7 +35,7 @@ def initial_round
 end
 
 def hit?(x)
-  puts ""
+  puts "Type 'h' to hit or 's' to stay"
 end
 
 def invalid_command
