@@ -35,13 +35,13 @@ def initial_round
 end
 
 def hit?(x)
+ t = initial_round
   prompt_user
-  get_user_input
-  b = deal_card
-  n = deal_card
   
-  sum1 = b + n
-  sum1
+  if get_user_input == "h"
+   w = deal_card
+ end
+ x = t + w
   
 end
 
