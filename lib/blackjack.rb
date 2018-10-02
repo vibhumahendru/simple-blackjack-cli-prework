@@ -36,6 +36,8 @@ end
 
 def invalid_command
 puts "Please enter a valid command"
+ prompt_user
+invalid_command
 end
 
 
@@ -49,7 +51,7 @@ elsif input == "s"
 x
 else
   prompt_user
-  invalid_command
+  
   
 end
 end
