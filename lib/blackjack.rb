@@ -35,9 +35,10 @@ def initial_round
 end
 
 def hit?(x)
- t = initial_round
+
   prompt_user
   get_user_input
+   t = initial_round
   if get_user_input == "h"
    w = deal_card
  end
