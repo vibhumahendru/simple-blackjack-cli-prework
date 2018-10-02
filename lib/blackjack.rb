@@ -64,6 +64,7 @@ def runner
   newt += initial_round
   until newt > 21
   newt = hit?(newt)
+  display_card_total(newt)
   
 end
     
