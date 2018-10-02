@@ -25,7 +25,11 @@ def end_game(x)
 end
 
 def initial_round
-  # code #initial_round here
+  x = deal_card
+  y = deal cards
+  
+  sum = x + y
+  sum
 end
 
 def hit?
