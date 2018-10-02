@@ -61,8 +61,8 @@ end
 def runner
   newt = 0
   welcome
-  initial_round
-  newt =+ hit?
+  newt += initial_round
+  if
   
 end
     
